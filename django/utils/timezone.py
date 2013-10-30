@@ -8,7 +8,7 @@ from threading import local
 import time as _time
 
 try:
-    import pytz
+    from pytz.gae import pytz
 except ImportError:
     pytz = None
 

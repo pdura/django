@@ -1,7 +1,7 @@
 from datetime import datetime, tzinfo
 
 try:
-    import pytz
+    from pytz.gae import pytz
 except ImportError:
     pytz = None
 

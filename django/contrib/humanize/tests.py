@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import datetime
 
 try:
-    import pytz
+    from pytz.gae import pytz
 except ImportError:
     pytz = None
 
